@@ -1,0 +1,4 @@
+catkin_make --pkg msckf_vio --cmake-args -DCMAKE_BUILD_TYPE=Release
+roslaunch msckf_vio msckf_vio_euroc.launch
+roslaunch msckf_vio msckf_rviz.launch
+rosbag play /home/rtk/Downloads/MH_05_difficult.bag
